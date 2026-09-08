@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F7F2EA;
+    color: #111111;
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: colors 0.3s;
+  }
+
+  /* Force all text to be visible on beige background */
+  h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+  }
+
+  p {
+    color: #3B3028;
+  }
+
+  @media (min-width: 768px) {
+    * {
+      cursor: none !important;
+    }
+  }
+}
+
+@layer components {
+  /* Glassmorphism utility */
+  .glass {
+    background-color: rgba(255, 250, 240, 0.75);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(200, 186, 165, 0.4);
+  }
+
+  .glass-card {
+    background-color: rgba(255, 250, 240, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid #DDD3C2;
+    box-shadow: 0 10px 40px rgba(60, 40, 20, 0.08);
+    border-radius: 1rem;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 font-medium rounded-lg transition-all active:scale-95;
+    background-color: #111111;
+    color: #F7F2EA;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .btn-primary:hover {
+    background-color: #333333;
+  }
+
+  .btn-accent {
+    @apply px-6 py-3 font-medium rounded-lg transition-all active:scale-95;
+    background-color: #111111;
+    color: #F7F2EA;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 font-medium rounded-lg transition-all active:scale-95;
+    border: 2px solid #111111;
+    color: #111111;
+    background-color: transparent;
+  }
+
+  .btn-outline:hover {
+    background-color: rgba(17,17,17,0.08);
+  }
+}
