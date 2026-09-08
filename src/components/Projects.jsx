@@ -5,14 +5,14 @@ import { ChevronDown, ChevronUp, ChevronLeft, ChevronRight } from 'lucide-react'
 
 // SALMA FILAT photos served from /public/salma-filat/
 const salmaFilatImages = [
-  { src: '/portfolio/salma-filat/SALMA FILAT .jpg', label: 'SALMA FILAT' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 1.jpg', label: 'SALMA FILAT 1' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 2.jpg', label: 'SALMA FILAT 2' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 3.jpg', label: 'SALMA FILAT 3' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 4.jpg', label: 'SALMA FILAT 4' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 5.jpg', label: 'SALMA FILAT 5' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 6.jpg', label: 'SALMA FILAT 6' },
-  { src: '/portfolio/salma-filat/SALMA FILAT 7.jpg', label: 'SALMA FILAT 7' },
+  { src: './salma-filat/SALMA FILAT .jpg', label: 'SALMA FILAT' },
+  { src: './salma-filat/SALMA FILAT 1.jpg', label: 'SALMA FILAT 1' },
+  { src: './salma-filat/SALMA FILAT 2.jpg', label: 'SALMA FILAT 2' },
+  { src: './salma-filat/SALMA FILAT 3.jpg', label: 'SALMA FILAT 3' },
+  { src: './salma-filat/SALMA FILAT 4.jpg', label: 'SALMA FILAT 4' },
+  { src: './salma-filat/SALMA FILAT 5.jpg', label: 'SALMA FILAT 5' },
+  { src: './salma-filat/SALMA FILAT 6.jpg', label: 'SALMA FILAT 6' },
+  { src: './salma-filat/SALMA FILAT 7.jpg', label: 'SALMA FILAT 7' },
 ];
 
 const ImageSlider = ({ images }) => {
