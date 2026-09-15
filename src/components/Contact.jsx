@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Section from './Section';
-import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 const Contact = () => {
   const [status, setStatus] = useState('idle');
@@ -48,16 +48,6 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-slate-600">Envoyer un e-mail</p>
                 <p className="font-semibold text-slate-900 text-slate-900">salmaa.joua@gmail.com</p>
-              </div>
-            </a>
-
-            <a href="https://wa.me/212711822069" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 glass-card group hover:border-primary dark:hover:border-accent transition-colors">
-              <div className="w-12 h-12 bg-primary/10 dark:bg-accent/10 rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
-                <Phone className="text-primary dark:text-accent" size={24} />
-              </div>
-              <div>
-                <p className="text-sm text-slate-600">WhatsApp</p>
-                <p className="font-semibold text-slate-900 text-slate-900">0711822069</p>
               </div>
             </a>
 

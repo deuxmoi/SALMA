@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './Section';
-import { User, MapPin, Mail, Phone, Calendar } from 'lucide-react';
+import { User, MapPin, Mail, Calendar } from 'lucide-react';
 import chefDeProjetImg from '../assets/Chef-de-projet.png';
 
 const About = () => {
@@ -8,7 +8,6 @@ const About = () => {
     { icon: <User className="text-primary dark:text-accent" size={20} />, label: 'Nom', value: 'Salma Joua' },
     { icon: <MapPin className="text-primary dark:text-accent" size={20} />, label: 'Localisation', value: 'Casablanca, Maroc' },
     { icon: <Mail className="text-primary dark:text-accent" size={20} />, label: 'Email', value: 'salmaa.joua@gmail.com' },
-    { icon: <Phone className="text-primary dark:text-accent" size={20} />, label: 'WhatsApp', value: '0711822069' },
   ];
 
   return (
